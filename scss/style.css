@@ -186,6 +186,13 @@ h1 {
   height: 70px;
 }
 
+.parallelogramme {
+  width: 55px;
+  height: 100px;
+  -webkit-transform: skew(20deg);
+  margin: 200px;
+}
+
 /* bougie */
 .bougie .triangle_un {
   width: 0;
