@@ -1,212 +1,10 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf) format("truetype");
-}
-
-* {
-  font-family: 'Poppins', sans-serif;
-  scroll-behavior: smooth;
-  padding: 0;
-  background-color: #333333;
-}
-
-body {
-  color: #fff;
-  margin: 20px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 80px;
-  margin-bottom: 0;
-  -webkit-text-stroke: 3px #777;
-}
-
-.first_page {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  max-height: 70vh;
-}
-
-.first_page button {
-  width: 100px;
-  height: 40px;
-  background-color: transparent;
-  outline: auto;
-  color: #fff;
-  border-radius: 30px;
-  margin: 20px;
-  margin-bottom: 30px;
-  border: 0;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.first_page button:hover {
-  background-color: #fff;
-  color: #333333;
-  outline-color: #fff;
-}
-
-.carre_tangram {
-  outline: auto;
-  height: 500px;
-  width: 500px;
-  background-color: #222222;
-  -webkit-box-shadow: 12px 12px 12px black;
-          box-shadow: 12px 12px 12px black;
-  position: relative;
-}
-
-.triangle_un {
-  width: 0;
-  height: 0;
-  position: absolute;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  border-left: 50px solid #d2696a;
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.triangle_deux {
-  width: 0;
-  height: 0;
-  position: absolute;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  border-left: 50px solid #7e2b7c;
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.triangle_trois {
-  width: 0;
-  height: 0;
-  position: absolute;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  border-left: 70px solid #189184;
-  border-top: 70px solid transparent;
-  border-bottom: 70px solid transparent;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.triangle_quatre {
-  width: 0;
-  height: 0;
-  position: absolute;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  border-left: 100px solid #fbc002;
-  border-top: 100px solid transparent;
-  border-bottom: 100px solid transparent;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.triangle_cinq {
-  width: 0;
-  height: 0;
-  position: absolute;
-  -webkit-transition: all 2s;
-  transition: all 2s;
-  border-left: 100px solid #b20000;
-  border-top: 100px solid transparent;
-  border-bottom: 100px solid transparent;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.carre {
-  background-color: #f48400;
-  width: 70px;
-  height: 70px;
-}
-
-.parallelogramme {
-  width: 55px;
-  height: 100px;
-  -webkit-transform: skew(20deg);
-  margin: 200px;
-}
-
 /* bougie */
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 .bougie .triangle_un {
   width: 0;
   height: 0;
   position: absolute;
-  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #d2696a;
   border-top: 50px solid transparent;
@@ -214,9 +12,15 @@ h1 {
   background-color: rgba(0, 0, 0, 0);
   margin-left: 300px;
 }
+.bougie .parallelogramme {
+  width: 55px;
+  height: 100px;
+  transform: skew(20deg);
+  margin: 200px;
+}
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   padding: 0;
   background-color: #333333;
@@ -235,16 +39,9 @@ h1 {
 }
 
 .first_page {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   max-height: 70vh;
 }
 
@@ -274,8 +71,7 @@ h1 {
   height: 500px;
   width: 500px;
   background-color: #222222;
-  -webkit-box-shadow: 12px 12px 12px black;
-          box-shadow: 12px 12px 12px black;
+  box-shadow: 12px 12px 12px black;
   position: relative;
 }
 
@@ -283,7 +79,6 @@ h1 {
   width: 0;
   height: 0;
   position: absolute;
-  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #d2696a;
   border-top: 50px solid transparent;
@@ -295,7 +90,6 @@ h1 {
   width: 0;
   height: 0;
   position: absolute;
-  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 50px solid #7e2b7c;
   border-top: 50px solid transparent;
@@ -307,7 +101,6 @@ h1 {
   width: 0;
   height: 0;
   position: absolute;
-  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 70px solid #189184;
   border-top: 70px solid transparent;
@@ -319,7 +112,6 @@ h1 {
   width: 0;
   height: 0;
   position: absolute;
-  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #fbc002;
   border-top: 100px solid transparent;
@@ -331,7 +123,6 @@ h1 {
   width: 0;
   height: 0;
   position: absolute;
-  -webkit-transition: all 2s;
   transition: all 2s;
   border-left: 100px solid #b20000;
   border-top: 100px solid transparent;
@@ -347,37 +138,30 @@ h1 {
 
 /* cygne */
 .cygne .triangle_un {
-  -webkit-transform: translate(-6px, 155px) rotate(0deg);
   transform: translate(-6px, 155px) rotate(0deg);
 }
 
 .cygne .triangle_deux {
-  -webkit-transform: translate(3px, 4px) rotate(45deg);
   transform: translate(3px, 4px) rotate(45deg);
 }
 
 .cygne .triangle_trois {
-  -webkit-transform: translate(-3px, 189px) rotate(180deg);
   transform: translate(-3px, 189px) rotate(180deg);
 }
 
 .cygne .triangle_cinq {
-  -webkit-transform: translate(57px, 194px) rotate(135deg);
   transform: translate(57px, 194px) rotate(135deg);
 }
 
 .cygne .ttriangle_quatre {
-  -webkit-transform: translate(127px, 136px) rotate(90deg);
   transform: translate(127px, 136px) rotate(90deg);
 }
 
 .cygne .carre {
-  -webkit-transform: translate(12px, 116px) rotate(45deg);
   transform: translate(12px, 116px) rotate(45deg);
 }
 
 .cygne .parallelogramme {
-  -webkit-transform: translate(42px, 38px) rotate(45deg) skew(45deg);
   transform: translate(42px, 38px) rotate(45deg) skew(45deg);
 }
 
@@ -393,113 +177,91 @@ h1 {
 }
 
 .tangram--basic {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
   margin-top: 200px;
 }
 
 .tangram--basic .triangle_un {
-  -webkit-transform: translate(160px, -2px) rotate(180deg);
   transform: translate(160px, -2px) rotate(180deg);
 }
 
 .tangram--basic .triangle_deux {
-  -webkit-transform: translate(79px, 79px) rotate(270deg);
   transform: translate(79px, 79px) rotate(270deg);
 }
 
 .tangram--basic .triangle_trois {
-  -webkit-transform: translate(150px, 109px) rotate(45deg);
   transform: translate(150px, 109px) rotate(45deg);
 }
 
 .tangram--basic .parallelogramme {
-  -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 }
 
 .tangram--basic .triangle_quatre {
-  -webkit-transform: translate(54px, -52px) rotate(90deg);
   transform: translate(54px, -52px) rotate(90deg);
 }
 
 .tangram--basic .carre {
-  -webkit-transform: translate(122px, 66px) rotate(45deg);
   transform: translate(122px, 66px) rotate(45deg);
 }
 
 .tangram--basic .triangle_cinq {
-  -webkit-transform: translate(45px, 146px) rotate(-45deg) skew(45deg);
   transform: translate(45px, 146px) rotate(-45deg) skew(45deg);
 }
 
 .cygne .triangle_un {
-  -webkit-transform: translate(-6px, 155px) rotate(0deg);
   transform: translate(-6px, 155px) rotate(0deg);
 }
 
 .cygne .triangle_deux {
-  -webkit-transform: translate(3px, 4px) rotate(45deg);
   transform: translate(3px, 4px) rotate(45deg);
 }
 
 .cygne .triangle_trois {
-  -webkit-transform: translate(-3px, 189px) rotate(180deg);
   transform: translate(-3px, 189px) rotate(180deg);
 }
 
 .cygne .triangle_cinq {
-  -webkit-transform: translate(57px, 194px) rotate(135deg);
   transform: translate(57px, 194px) rotate(135deg);
 }
 
 .cygne .triangle_quatre {
-  -webkit-transform: translate(127px, 136px) rotate(90deg);
   transform: translate(127px, 136px) rotate(90deg);
 }
 
 .cygne .carre {
-  -webkit-transform: translate(12px, 116px) rotate(45deg);
   transform: translate(12px, 116px) rotate(45deg);
 }
 
 .cygne .parallelogramme {
-  -webkit-transform: translate(42px, 38px) rotate(45deg) skew(45deg);
   transform: translate(42px, 38px) rotate(45deg) skew(45deg);
 }
 
 .tangram--rabbit .triangle_un {
-  -webkit-transform: translate(61px, 333px) rotate(45deg);
   transform: translate(61px, 333px) rotate(45deg);
 }
 
 .tangram--rabbit .triangle--purple {
-  -webkit-transform: translate(20px, 210px) rotate(180deg);
   transform: translate(20px, 210px) rotate(180deg);
 }
 
 .tangram--rabbit .triangle--turquoise {
-  -webkit-transform: translate(99px, 307px) rotate(135deg);
   transform: translate(99px, 307px) rotate(135deg);
 }
 
 .tangram--rabbit .triangle--yellow {
-  -webkit-transform: translate(60px, 120px) rotate(135deg);
   transform: translate(60px, 120px) rotate(135deg);
 }
 
 .tangram--rabbit .triangle--red {
-  -webkit-transform: translate(130px, 196px) rotate(-45deg);
   transform: translate(130px, 196px) rotate(-45deg);
 }
 
 .tangram--rabbit .square--orange {
-  -webkit-transform: translate(0, 74px) rotate(0deg);
   transform: translate(0, 74px) rotate(0deg);
 }
 
 .tangram--rabbit .parallelogram--green {
-  -webkit-transform: translate(76px, 0px) skew(-45deg);
   transform: translate(76px, 0px) skew(-45deg);
 }
 
@@ -507,7 +269,6 @@ h1 {
   width: 0;
   height: 0;
   position: absolute;
-  -webkit-transition: all 2s;
   transition: all 2s;
 }
 
@@ -543,7 +304,6 @@ h1 {
 
 .carre {
   position: absolute;
-  -webkit-transition: all 2s;
   transition: all 2s;
 }
 
@@ -555,7 +315,6 @@ h1 {
 
 .parallelogramme {
   position: absolute;
-  -webkit-transition: all 2s;
   transition: all 2s;
 }
 
@@ -600,22 +359,298 @@ h1 {
   background-size: 28px;
 }
 
-.bouton {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf) format("truetype");
+}
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  padding: 0;
+  background-color: #333333;
 }
 
-.bouton .btn_carre .boutonhaut {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
-  padding-left: 200px;
+body {
+  color: #fff;
+  margin: 20px;
 }
-/*# sourceMappingURL=style.css.map */
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 0;
+  -webkit-text-stroke: 3px #777;
+}
+
+.first_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 70vh;
+}
+
+.first_page button {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  outline: auto;
+  color: #fff;
+  border-radius: 30px;
+  margin: 20px;
+  margin-bottom: 30px;
+  border: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.first_page button:hover {
+  background-color: #fff;
+  color: #333333;
+  outline-color: #fff;
+}
+
+.carre_tangram {
+  outline: auto;
+  height: 500px;
+  width: 500px;
+  background-color: #222222;
+  box-shadow: 12px 12px 12px black;
+  position: relative;
+}
+
+.triangle_un {
+  width: 0;
+  height: 0;
+  position: absolute;
+  transition: all 2s;
+  border-left: 50px solid #d2696a;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.triangle_deux {
+  width: 0;
+  height: 0;
+  position: absolute;
+  transition: all 2s;
+  border-left: 50px solid #7e2b7c;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.triangle_trois {
+  width: 0;
+  height: 0;
+  position: absolute;
+  transition: all 2s;
+  border-left: 70px solid #189184;
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.triangle_quatre {
+  width: 0;
+  height: 0;
+  position: absolute;
+  transition: all 2s;
+  border-left: 100px solid #fbc002;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.triangle_cinq {
+  width: 0;
+  height: 0;
+  position: absolute;
+  transition: all 2s;
+  border-left: 100px solid #b20000;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.carre {
+  background-color: #f48400;
+  width: 70px;
+  height: 70px;
+}
+
+/*serpent*/
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf) format("truetype");
+}
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  padding: 0;
+  background-color: #333333;
+}
+
+body {
+  color: #fff;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 0;
+  -webkit-text-stroke: 3px #777;
+}
+
+.first_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 70vh;
+}
+
+.first_page button {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  outline: auto;
+  color: #fff;
+  border-radius: 30px;
+  margin: 20px;
+  margin-bottom: 30px;
+  border: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.first_page button:hover {
+  background-color: #fff;
+  color: #333333;
+  outline-color: #fff;
+}
+
+.carre_tangram {
+  outline: auto;
+  height: 500px;
+  width: 500px;
+  background-color: #222222;
+  box-shadow: 12px 12px 12px black;
+  position: relative;
+}
+
+.bouton {
+  display: flex;
+  flex-direction: column;
+}
+.bouton .btn_carre .boutonhaut {
+  display: flex;
+  align-self: center;
+  padding-left: 200px;
+}/*# sourceMappingURL=style.css.map */
