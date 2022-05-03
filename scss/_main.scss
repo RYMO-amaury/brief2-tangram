@@ -1,0 +1,11 @@
+.bouton {
+    display: flex;
+        flex-direction: column;
+    .btn_carre {
+        .boutonhaut {
+            display: flex;
+            align-self: center;
+            padding-left: 200px;
+        }
+    }
+}
